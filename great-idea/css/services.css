@@ -97,7 +97,7 @@ header nav a{
 .header-body h1{
     font-size: 30px;
 }
-/* Header styling */
+/* ^^ Header styling ^^ */
 .main-body{
     display: flex;
     height: 800px;
@@ -117,3 +117,25 @@ header nav a{
     border-radius: 5px;
     background-color: white;
 }
+/* ^^ Mid body Styling ^^ */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lower-body{
+    width: 350px;
+}
+li{
+    margin-left: 20px;
+    padding: 10px;
+    list-style-type: square;
+}
+.copyright{
+    text-align: center;
+    padding-top: 40px;
+}
+.lower-body p{
+    padding-bottom: 20px;
+}
+/* ^^ Lower Body Styling ^^ */
