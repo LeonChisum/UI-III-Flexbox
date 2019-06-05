@@ -88,6 +88,14 @@ header nav a{
 	margin-left: 40px;
 	text-decoration: none;
 	color: silver;	
+	opacity:0.5;
+}
+header nav a:hover{
+	color: black;
+}
+header nav a:active{
+	color: black;
+	text-decoration: underline;
 }
 /* ^^ Header and Nav bar styling ^^ */
 .upper-body{
