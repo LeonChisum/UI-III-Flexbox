@@ -85,8 +85,12 @@ header{
     align-items: center;
 	/* border: 1px solid green; */
 }
+header nav{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
 header nav a{
-	margin-left: 40px;
 	text-decoration: none;
 	color: silver;	
 }
@@ -144,5 +148,10 @@ li{
 }
 .lower-body p{
     padding-bottom: 20px;
+}
+footer img{
+    padding: 10px;
+    border: 2px solid green;
+    background-color: black;
 }
 /* ^^ Lower Body Styling ^^ */

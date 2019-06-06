@@ -84,11 +84,14 @@ header{
 	align-items: center;
 	/* border: 1px solid green; */
 }
+header nav{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
 header nav a{
-	margin-left: 40px;
 	text-decoration: none;
 	color: silver;	
-	opacity:0.5;
 }
 header nav a:hover{
 	color: black;
